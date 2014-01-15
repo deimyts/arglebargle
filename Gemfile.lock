@@ -1,9 +1,3 @@
-GIT
-  remote: git://github.com/bmabey/database_cleaner.git
-  revision: 072492166e82969136d1abaeccbcadaae4fe6539
-  specs:
-    database_cleaner (1.2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -226,7 +220,6 @@ DEPENDENCIES
   childprocess (= 0.3.6)
   coffee-rails (= 4.0.1)
   cucumber-rails (= 1.4.0)
-  database_cleaner!
   factory_girl_rails (= 4.2.0)
   faker (= 1.1.2)
   guard-rspec (= 2.5.0)
