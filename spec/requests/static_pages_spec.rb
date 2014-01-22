@@ -10,7 +10,7 @@ describe "StaticPages" do
 	end
 
   	describe "Home page" do 
-  		before { visit '/static_pages/home' }
+  		before { visit root_path }
   		let(:heading) { 'Carnegie'}
   		let(:page_title) { '' }
 
@@ -18,8 +18,8 @@ describe "StaticPages" do
 	 	it { should_not have_title(' | Home') }
 	 end
 
-  	describe "About page:" do
-  		before { visit '/static_pages/about' }
+  	describe "About page" do
+  		before { visit about_path }
   		let(:heading) { 'About'}
   		let(:page_title) { 'About Us' }
 
